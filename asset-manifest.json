@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mypage/static/css/main.9cf23c13.css",
+    "main.js": "/mypage/static/js/main.f6f061c1.js",
+    "static/js/453.01c969ee.chunk.js": "/mypage/static/js/453.01c969ee.chunk.js",
+    "static/media/trafficCircuit.MOV": "/mypage/static/media/trafficCircuit.786e21f52c51437a5ab1.MOV",
+    "static/media/beachSunset.jpeg": "/mypage/static/media/beachSunset.d0b627353190dec37b91.jpeg",
+    "static/media/prBeach.jpeg": "/mypage/static/media/prBeach.e501e78e5ad7a129ceed.jpeg",
+    "static/media/samAppHomePage.png": "/mypage/static/media/samAppHomePage.e177bef3d35a5401984d.png",
+    "static/media/deals4UHomePage.png": "/mypage/static/media/deals4UHomePage.13b9800e47b4e192c20f.png",
+    "static/media/transparentBobTheBuilder.png": "/mypage/static/media/transparentBobTheBuilder.25d4e7cfd5370ff3a12a.png",
+    "static/media/csHectorSaucedoResume.pdf": "/mypage/static/media/csHectorSaucedoResume.45fe283d8643ecb47675.pdf",
+    "index.html": "/mypage/index.html",
+    "main.9cf23c13.css.map": "/mypage/static/css/main.9cf23c13.css.map",
+    "main.f6f061c1.js.map": "/mypage/static/js/main.f6f061c1.js.map",
+    "453.01c969ee.chunk.js.map": "/mypage/static/js/453.01c969ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cf23c13.css",
+    "static/js/main.f6f061c1.js"
+  ]
+}
