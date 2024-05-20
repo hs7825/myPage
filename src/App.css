@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-color: #282828; /* Dark background for the entire app */
+  color: #e0e0e0; /* Light grey text color for better readability */
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* This ensures that the App container takes at least the full height of the viewport */
+  justify-content: space-between;  /* Adjust this according to your design */
 }
 
 .App-logo {
@@ -14,18 +22,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1a1a1a; /* Slightly lighter dark shade for the header */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; /* Keep header text white for contrast */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #bb86fc; /* Light purple color for links, offering better visibility */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +44,4 @@
     transform: rotate(360deg);
   }
 }
+
