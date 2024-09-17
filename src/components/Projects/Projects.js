@@ -80,8 +80,15 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
-
+            <ProjectCard
+                    imgPath={yoloV8Demo}
+                    isBlog={false}
+                    title="Guess4/3"
+                    description="Guess 4/3 is an android app that recreates a simple version of the popular word game Wordle. The most tedious part of building the application was getting the UI right. I am still familiarizing myself with the constraints so if they were not set right they would move all over the place when I ran on the emulator. I also noticed I needed to search a lot for ways to manipulate the button component so trying to remember that is definitely useful. Also, I need to write out the logic I want my app to have before actually coding. I found myself going back too much trying to understand why I did not receive my desired outcome."
+                    ghLink="https://github.com/hs7825/Android_Development_Projects/blob/main/project1/README.md"
+                    />
           </Col>
+          
         </Row>
       </Container>
     </Container>
