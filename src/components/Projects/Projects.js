@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import deals4UHomePage from "../../Assets/deals4UHomePage.png";
 import samHomePage from "../../Assets/samAppHomePage.png";
+import trackerPal from "../../Assets/trackerPal.png"
+import yoloV8Demo from "../../Assets/yoloV8Demo.png"
 
 
 function Projects() {
@@ -41,15 +43,40 @@ function Projects() {
           </Col>
 
           <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={trackerPal}
+                isBlog={false}
+                title="TrackerPal"
+                description="This was one of my first full stack application's. It's purpose was to allow users to track  meals, nutrient and caloric intake as well as recipes."
+                youtubeLink="https://youtu.be/SZWjG2UXxfw"
+            />
 
+          </Col>
+        </Row>
+        
+        
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">  
+            <ProjectCard
+                  imgPath={yoloV8Demo}
+                  isBlog={false}
+                  title="YOLOV8 & Drone Footage"
+                  description="Trained the YOLOV8 deep learning model to detect cyclists and cars from drone footage processed by OpenCV. Implemented algorithms that combine object detection and data association techniques when drawing reliable predictions using the Kalman Filter on objects with a CI >= 60. Won 1st place in academic competition where the model was measured on mitigating factors such as occlusion, motion blur, and changes in object appearance."
+                  youtubeLink="https://youtube.com/shorts/iiujv2ZhiUM?feature=share"
+                  youtubeLink2 = "https://youtu.be/trs8Twsw418"
+
+              />
           </Col>
 
           <Col md={4} className="project-card">
-
-          </Col>
-
-          <Col md={4} className="project-card">
-
+            <ProjectCard
+                  imgPath={yoloV8Demo}
+                  isBlog={false}
+                  title="Drone2U"
+                  description="During my internship at AIR WEB DIGITAL I started the creation of a mobile app to allow users to request a drone service. This is a demo I created in the early stages. "
+                  youtubeLink=""
+              />
           </Col>
 
           <Col md={4} className="project-card">

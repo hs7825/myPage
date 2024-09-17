@@ -45,7 +45,22 @@ function ProjectCards(props) {
             <MdOndemandVideo />  &nbsp;
             {"Demonstration"}
           </Button>
+          
         )}
+
+        {props.youtubeLink2 && (
+          <Button
+            variant="primary"
+            href={props.youtubeLink}
+            target="_blank"
+            style={{ marginLeft: "10px"}}
+          >
+            <MdOndemandVideo />  &nbsp;
+            {"Demonstration 2"}
+          </Button>
+        )
+
+        }
       </Card.Body>
     </Card>
   );

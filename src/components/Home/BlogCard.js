@@ -13,11 +13,12 @@ function BlogCard(props){
       };
 
     return(
+        <Container style={{paddingTop : 50}}>
         <Card className="project-card-view" onClick={handleToggle} style={{border : "white", cursor: "pointer", backgroundColor: '#838B90'}}>
-            <Card.Title style={{color: "white", textAlign: "center"}}>{props.title}</Card.Title>
+            <Card.Title style={{color: "white", textAlign: "left", paddingTop: 10, paddingBottom: 5, paddingLeft: 5}}>{props.title}</Card.Title>
             {expanded && (
                 <>
-                <Card.Text style={{ textAlign: "justify" , color: "white", marginRight: "20px", marginLeft: "20px" }}> {props.description}</Card.Text>
+                <Card.Text style={{ textAlign: "justify" , color: "white", backgroundColor: '#8aa7b2'}}> {props.description}</Card.Text>
                 <Button variant="primary" href={props.link} target="_blank" style={{ marginRight: "80px", marginLeft: "80px" }}>
                     <IoIosDocument /> &nbsp;
                     {"Read More"}
@@ -25,6 +26,7 @@ function BlogCard(props){
                 </>
             )}
         </Card>
+        </Container>
     )
 }
 

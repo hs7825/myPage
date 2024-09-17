@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Type from "./Type";
 import Bob from "../../Assets/transparentBobTheBuilder.png"
 import BlogCard from "./BlogCard"
+import Card from 'react-bootstrap/Card';
 
 
 function Home() {
@@ -23,13 +24,25 @@ function Home() {
               </h1>
 
               <Col md={6} className="project-card" style={{textAlign : "center"}}>
-            
-              <BlogCard
-              title="Adding mailing list to Deals4U"
-              description='Due to the nature of the application being a "coupon book" I wanted to retain user attention through the popular method of a mailing list.'
-              />
+              
+              <Card style={{width: 155, backgroundColor: '#4c6872'}}>
+                <Card.Title style = {{textAlign : 'center', paddingLeft: 5, paddingTop: 5, color: 'white'}}> Latest Posts </Card.Title>
+              </Card>
+
+              <Container style={{marginTop : 10}}>
+                <Card style={{width: 600, backgroundColor: '#4c6872'}}>
+                  <Card.Title style = {{textAlign : 'left', paddingLeft: 20, paddingTop: 20, color: 'white'}}> Wordle on Android </Card.Title>
+                  <Card.Body  style = {{textAlign : 'left', paddingLeft: 20,  color: 'white'}}>September 11, 2024</Card.Body>
+                </Card>
+              </Container>
+
+              
+
               </Col>
+
             </Col>
+
+
 
             <Col md={5} style={{ paddingTop:60 ,paddingBottom: 20 }}>
               <img
