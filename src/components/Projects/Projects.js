@@ -6,7 +6,8 @@ import deals4UHomePage from "../../Assets/deals4UHomePage.png";
 import samHomePage from "../../Assets/samAppHomePage.png";
 import trackerPal from "../../Assets/trackerPal.png"
 import yoloV8Demo from "../../Assets/yoloV8Demo.png"
-
+import guess34 from "../../Assets/guess34.gif"
+import airwebDigital from "../../Assets/airwebScreenshot.png"
 
 function Projects() {
   return (
@@ -71,17 +72,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-                  imgPath={yoloV8Demo}
+                  imgPath={airwebDigital}
                   isBlog={false}
                   title="Drone2U"
                   description="During my internship at AIR WEB DIGITAL I started the creation of a mobile app to allow users to request a drone service. This is a demo I created in the early stages. "
-                  youtubeLink=""
+                  youtubeLink="https://youtu.be/1E_gPjNnmnw"
               />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-                    imgPath={yoloV8Demo}
+                    imgPath={guess34}
                     isBlog={false}
                     title="Guess4/3"
                     description="Guess 4/3 is an android app that recreates a simple version of the popular word game Wordle. The most tedious part of building the application was getting the UI right. I am still familiarizing myself with the constraints so if they were not set right they would move all over the place when I ran on the emulator. I also noticed I needed to search a lot for ways to manipulate the button component so trying to remember that is definitely useful. Also, I need to write out the logic I want my app to have before actually coding. I found myself going back too much trying to understand why I did not receive my desired outcome."
